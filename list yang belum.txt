@@ -1,0 +1,109 @@
+website forindra
+localhost/forindra/admin/login
+
+Username : admin
+Password : 123456
+
+navbar 
+home = bekerja
+profile
+-organisasi = bekerja
+-anggota = belum
+kegiatan
+-organisasi = bekerja
+-agenda = bekerja
+berita = bekerja
+UMKM = belum
+Galeri = bekerja
+search = belum
+registrasi = belum
+login = belum
+
+
+databasenya udah ada? data nya apa aja
+databasenya belum ada gua lagi minta sama dosennya sih, tapi beberapa dari web ini fungsinya udah sesuai tinggal beberapa doang
+berarti nanti banyak models yang harus di apus kan?
+
+
+iya. model itu yg berurusan dg database, jadi lu berarti mau lanjutin web ini sampe seleai gitu ta?
+iyaa betul, jadi sebelumnya ini punya mahasiswanya dia tapi karena pindah kelompok programnya di minta dan di serahkan ke gua
+soalnya gua udah 2x ngasih judul di tolak makanya dia rekomendasikan ini
+itu ada databasenya
+"forindra"
+iyaa dikasih juga databasenya, tapi belum sesuai dengan website yang dia mau
+kaya tbl siswa itu pasti bakal di apus nantinya di ganti dengan yang baru.oo
+
+apa lagi yg mau lu tanya?
+yang  login ja
+
+itu bisa
+tadi gua coba2 gabisa wkwk
+oh iya jaa buat register berarti nanti buat dulu kan formnya di view sama databasenya?
+
+yap, tinggal insert data ke tbl_pengguna
+
+ok berhasil ke logout
+ngerti site_url() sama base_url() gk?
+
+base_url yang ngelink bukan?
+soalnya gua waktu itu bikin toko pake base url
+
+base_url() : buat asset kaya css. js, dll
+site_url() : buat routing ke controller dari ci, dia pake helper bawaan url yg di autoload gitu.
+
+itu pake ci?
+bukan pake bootsrap, itu gua pake base_url assetnya.
+
+jadi baru template aja itu?
+udah bisa login juga kok.
+cuma disini ada kekurangannya, kaya konfrimasi pembayarannya belum muncul
+
+ini tugas sendiri atau kelompok?
+ini tugas sendiri, gua ngajuin ini jadi PI kemarin tapi di tolak karena udah banyak yang buat ecommerce, disuruh buat yang lain selain itu
+
+ini lu buat dari 0, cuy?
+engga sebagian ada yang gua cari di internet ngeliat2 ja
+
+itu gua berikan ke bebeb pak wkwk
+dasar
+
+ini php native kan, pantes dosen lu minta pake framework
+kalo pake php native banyak kurangnya cuy, apa lagi kalo udah komplek
+iyaa kan saya belum terlalu paham CI pak wkwk
+php native masih paham lahh.
+tapi ada sebagian anak kelasan gua pake native di terima
+tergantung dospemnya jugaa soalnyaa
+
+ya udah yg mana lagi yg mau ditanya, itu resister nanti passwordnya pake md5 ya
+register ga pake database yang admin bisa kan?
+
+emg lu buat yg php native gk pake database pas login .
+?pake lah wkwk
+
+iya udah pasti pake lah
+oh iya nih rancangan webnya kaya gini
+
+itu kayanya, dibuat resiternya itu dari admin pak
+berarti hanya admin yang bisa membuat akun ya?
+yap, coba ya buat 1
+
+kayanya gua pernah liat template ini, di website mana gitu pak, fikri2 gitu :)
+oh iya keknya gua tadi liat ada nama fikri2 gitu deh
+
+jadi ini modelnya, akses admin yg hanya bisa dashboard ini pak
+kalo author gk bisa
+
+berarti kalo author nantinya gimana pak?
+
+seharusnya author, cuman kaya akses form berita aja, nulis artikel di webiste ini
+
+coba aja pak, pelajari dulu alur websitenya, nanti tinggal diubah bates2an nya
+
+cua udah ngantuk, wkwkwk
+sama pak saya juga ngantuk besok masuk pagi promo wkwk
+
+
+ok
+okayy makasih jaa, nanti kalo gua bingung nanya lagi yoo wkwk
+ok
+
